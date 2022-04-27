@@ -1,0 +1,827 @@
+{
+  "id": "60947060-73c1-455c-971e-46daf5a108ec",
+  "version": "2.0",
+  "name": "ShopClues",
+  "url": "https://bazaar.shopclues.com/?__ar=Y",
+  "tests": [{
+    "id": "440b4d12-29d8-4ddd-a6c3-a902ee6f1f02",
+    "name": "ShopClues_Login_Selenium",
+    "commands": [{
+      "id": "357b1738-3d40-4c05-8c55-76a46fb892cb",
+      "comment": "",
+      "command": "open",
+      "target": "https://bazaar.shopclues.com/?__ar=Y",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8e9cfc65-14ac-4530-9622-ee5cabf04831",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x840",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7c11d4a1-b17c-42ee-9632-2e3133fb229f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Sign In",
+      "targets": [
+        ["linkText=Sign In", "linkText"],
+        ["css=#sign-in > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Sign In')]", "xpath:link"],
+        ["xpath=//a[@onclick='loginPopup();']", "xpath:attributes"],
+        ["xpath=//li[@id='sign-in']/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript:void(0);')])[12]", "xpath:href"],
+        ["xpath=//div[4]/ul/li[6]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Sign In')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f4b92c2a-e580-4657-9a25-5e7a1550f3e5",
+      "comment": "",
+      "command": "click",
+      "target": "id=main_user_login",
+      "targets": [
+        ["id=main_user_login", "id"],
+        ["name=user_login", "name"],
+        ["css=#main_user_login", "css:finder"],
+        ["xpath=//input[@id='main_user_login']", "xpath:attributes"],
+        ["xpath=//div[@id='login']/form/fieldset/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "87eab925-c141-4bd7-83dc-6c21149e7456",
+      "comment": "",
+      "command": "type",
+      "target": "id=main_user_login",
+      "targets": [
+        ["id=main_user_login", "id"],
+        ["name=user_login", "name"],
+        ["css=#main_user_login", "css:finder"],
+        ["xpath=//input[@id='main_user_login']", "xpath:attributes"],
+        ["xpath=//div[@id='login']/form/fieldset/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "drashtitest@gmail.com"
+    }, {
+      "id": "ff2b64ea-4a4e-448d-9360-61e88a71d6af",
+      "comment": "",
+      "command": "click",
+      "target": "id=login_via_otp",
+      "targets": [
+        ["id=login_via_otp", "id"],
+        ["linkText=Login via OTP", "linkText"],
+        ["css=#login_via_otp", "css:finder"],
+        ["xpath=//a[contains(text(),'Login via OTP')]", "xpath:link"],
+        ["xpath=//a[@id='login_via_otp']", "xpath:attributes"],
+        ["xpath=//div[@id='login']/form/fieldset/div[3]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript:void(0);')])[8]", "xpath:href"],
+        ["xpath=//div[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Login via OTP')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ee8bf5a1-1a26-4494-8559-7db2028c4276",
+      "comment": "",
+      "command": "click",
+      "target": "name=otp",
+      "targets": [
+        ["name=otp", "name"],
+        ["css=.loginviaotp_ver_layer .label_jump", "css:finder"],
+        ["xpath=//input[@name='otp']", "xpath:attributes"],
+        ["xpath=//div[@id='loginModelBox']/div/div[2]/div[3]/div/form/div[4]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/form/div[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cd5a4b60-1d16-46d6-ae5d-eb30952ff440",
+      "comment": "",
+      "command": "type",
+      "target": "name=otp",
+      "targets": [
+        ["name=otp", "name"],
+        ["css=.loginviaotp_ver_layer .label_jump", "css:finder"],
+        ["xpath=//input[@name='otp']", "xpath:attributes"],
+        ["xpath=//div[@id='loginModelBox']/div/div[2]/div[3]/div/form/div[4]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/form/div[4]/input", "xpath:position"]
+      ],
+      "value": "767"
+    }, {
+      "id": "c9a7425c-2063-4b49-af84-1975c4efd8bd",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Verify",
+      "targets": [
+        ["linkText=Verify", "linkText"],
+        ["css=.loginviaotp_ver_layer .btn", "css:finder"],
+        ["xpath=//a[contains(text(),'Verify')]", "xpath:link"],
+        ["xpath=//a[@onclick='signupLoginDsktpMngr.doLoginViaOtpVerification(this)']", "xpath:attributes"],
+        ["xpath=//div[@id='loginModelBox']/div/div[2]/div[3]/div/form/div[5]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript:void(0);')])[14]", "xpath:href"],
+        ["xpath=//div[3]/div/form/div[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Verify')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "31a47a93-17b0-46f9-8d42-2735e4b8e0b5",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Verify",
+      "targets": [
+        ["linkText=Verify", "linkText"],
+        ["css=.loginviaotp_ver_layer .btn", "css:finder"],
+        ["xpath=//a[contains(text(),'Verify')]", "xpath:link"],
+        ["xpath=//a[@onclick='signupLoginDsktpMngr.doLoginViaOtpVerification(this)']", "xpath:attributes"],
+        ["xpath=//div[@id='loginModelBox']/div/div[2]/div[3]/div/form/div[5]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript:void(0);')])[14]", "xpath:href"],
+        ["xpath=//div[3]/div/form/div[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Verify')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "000bd9a1-811c-493e-94a2-c0d9884f8545",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Verify",
+      "targets": [
+        ["linkText=Verify", "linkText"],
+        ["css=.loginviaotp_ver_layer .btn", "css:finder"],
+        ["xpath=//a[contains(text(),'Verify')]", "xpath:link"],
+        ["xpath=//a[@onclick='signupLoginDsktpMngr.doLoginViaOtpVerification(this)']", "xpath:attributes"],
+        ["xpath=//div[@id='loginModelBox']/div/div[2]/div[3]/div/form/div[5]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript:void(0);')])[14]", "xpath:href"],
+        ["xpath=//div[3]/div/form/div[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Verify')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b04be15a-d3d0-4cef-930f-8ce7dc03db0d",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.loginviaotp_ver_layer .otp_err",
+      "targets": [
+        ["css=.loginviaotp_ver_layer .otp_err", "css:finder"],
+        ["xpath=//div[@id='loginModelBox']/div/div[2]/div[3]/div/form/div[4]/div/span", "xpath:idRelative"],
+        ["xpath=//div[3]/div/form/div[4]/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Invalid OTP.')]", "xpath:innerText"]
+      ],
+      "value": "Invalid OTP."
+    }, {
+      "id": "b885684e-b7ee-4329-a1b1-e664f5e1bf9b",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Back",
+      "targets": [
+        ["linkText=Back", "linkText"],
+        ["css=.loginviaotp_ver_layer .link > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Back')])[3]", "xpath:link"],
+        ["xpath=//a[@onclick='signupLoginDsktpMngr.backLoginViaOtpVerification(this);']", "xpath:attributes"],
+        ["xpath=//div[@id='loginModelBox']/div/div[2]/div[3]/div/form/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript:void(0);')])[12]", "xpath:href"],
+        ["xpath=//div[3]/div/form/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "90ced156-7c67-4f79-b4a7-7786862a60da",
+      "comment": "",
+      "command": "click",
+      "target": "id=main_user_login",
+      "targets": [
+        ["id=main_user_login", "id"],
+        ["name=user_login", "name"],
+        ["css=#main_user_login", "css:finder"],
+        ["xpath=//input[@id='main_user_login']", "xpath:attributes"],
+        ["xpath=//div[@id='login']/form/fieldset/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3dd062cf-a9b2-4fcd-8604-b66778a5bc58",
+      "comment": "",
+      "command": "type",
+      "target": "id=main_user_login",
+      "targets": [
+        ["id=main_user_login", "id"],
+        ["name=user_login", "name"],
+        ["css=#main_user_login", "css:finder"],
+        ["xpath=//input[@id='main_user_login']", "xpath:attributes"],
+        ["xpath=//div[@id='login']/form/fieldset/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8c4b80bf-d59b-4976-90e8-63727ce48636",
+      "comment": "",
+      "command": "click",
+      "target": "id=login_via_otp",
+      "targets": [
+        ["id=login_via_otp", "id"],
+        ["linkText=Login via OTP", "linkText"],
+        ["css=#login_via_otp", "css:finder"],
+        ["xpath=//a[contains(text(),'Login via OTP')]", "xpath:link"],
+        ["xpath=//a[@id='login_via_otp']", "xpath:attributes"],
+        ["xpath=//div[@id='login']/form/fieldset/div[3]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript:void(0);')])[8]", "xpath:href"],
+        ["xpath=//div[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Login via OTP')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "18418690-4679-49d1-909f-1a0036f63c8c",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.s_row:nth-child(2) > .error_text:nth-child(4) > .user_login_err",
+      "targets": [
+        ["css=.s_row:nth-child(2) > .error_text:nth-child(4) > .user_login_err", "css:finder"],
+        ["xpath=//div[@id='login']/form/fieldset/div[2]/div/span", "xpath:idRelative"],
+        ["xpath=//fieldset/div[2]/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Please enter email id or mobile number.')]", "xpath:innerText"]
+      ],
+      "value": "Please enter email id or mobile number."
+    }, {
+      "id": "241c6a97-7b2e-4d0c-a4a1-51184e7b8972",
+      "comment": "",
+      "command": "click",
+      "target": "id=main_user_login",
+      "targets": [
+        ["id=main_user_login", "id"],
+        ["name=user_login", "name"],
+        ["css=#main_user_login", "css:finder"],
+        ["xpath=//input[@id='main_user_login']", "xpath:attributes"],
+        ["xpath=//div[@id='login']/form/fieldset/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a59e1b29-75d9-48d3-a948-cef28784abd3",
+      "comment": "",
+      "command": "type",
+      "target": "id=main_user_login",
+      "targets": [
+        ["id=main_user_login", "id"],
+        ["name=user_login", "name"],
+        ["css=#main_user_login", "css:finder"],
+        ["xpath=//input[@id='main_user_login']", "xpath:attributes"],
+        ["xpath=//div[@id='login']/form/fieldset/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "drashti@gmail.com"
+    }, {
+      "id": "6d21b2ca-f458-4a0a-88b9-bb61aeab812c",
+      "comment": "",
+      "command": "click",
+      "target": "id=login_via_otp",
+      "targets": [
+        ["id=login_via_otp", "id"],
+        ["linkText=Login via OTP", "linkText"],
+        ["css=#login_via_otp", "css:finder"],
+        ["xpath=//a[contains(text(),'Login via OTP')]", "xpath:link"],
+        ["xpath=//a[@id='login_via_otp']", "xpath:attributes"],
+        ["xpath=//div[@id='login']/form/fieldset/div[3]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript:void(0);')])[8]", "xpath:href"],
+        ["xpath=//div[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Login via OTP')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "521fa83d-128c-4b89-b3c1-0bd38057f23d",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Back",
+      "targets": [
+        ["linkText=Back", "linkText"],
+        ["css=.loginviaotp_ver_layer .link > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Back')])[3]", "xpath:link"],
+        ["xpath=//a[@onclick='signupLoginDsktpMngr.backLoginViaOtpVerification(this);']", "xpath:attributes"],
+        ["xpath=//div[@id='loginModelBox']/div/div[2]/div[3]/div/form/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript:void(0);')])[12]", "xpath:href"],
+        ["xpath=//div[3]/div/form/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5b7838d1-f0cb-4c30-a594-5b94a99bde4a",
+      "comment": "",
+      "command": "click",
+      "target": "id=main_user_login",
+      "targets": [
+        ["id=main_user_login", "id"],
+        ["name=user_login", "name"],
+        ["css=#main_user_login", "css:finder"],
+        ["xpath=//input[@id='main_user_login']", "xpath:attributes"],
+        ["xpath=//div[@id='login']/form/fieldset/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fa612497-a3f3-44b2-bcc0-df6e0b25900c",
+      "comment": "",
+      "command": "type",
+      "target": "id=main_user_login",
+      "targets": [
+        ["id=main_user_login", "id"],
+        ["name=user_login", "name"],
+        ["css=#main_user_login", "css:finder"],
+        ["xpath=//input[@id='main_user_login']", "xpath:attributes"],
+        ["xpath=//div[@id='login']/form/fieldset/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "drashti@g"
+    }, {
+      "id": "e91aea07-5d8f-4a76-a8d3-a009f4ec383c",
+      "comment": "",
+      "command": "click",
+      "target": "id=login_via_otp",
+      "targets": [
+        ["id=login_via_otp", "id"],
+        ["linkText=Login via OTP", "linkText"],
+        ["css=#login_via_otp", "css:finder"],
+        ["xpath=//a[contains(text(),'Login via OTP')]", "xpath:link"],
+        ["xpath=//a[@id='login_via_otp']", "xpath:attributes"],
+        ["xpath=//div[@id='login']/form/fieldset/div[3]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript:void(0);')])[8]", "xpath:href"],
+        ["xpath=//div[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Login via OTP')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "831e2e9a-f70b-43b5-8064-d58598187d98",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.s_row:nth-child(2) > .error_text:nth-child(4) > .user_login_err",
+      "targets": [
+        ["css=.s_row:nth-child(2) > .error_text:nth-child(4) > .user_login_err", "css:finder"],
+        ["xpath=//div[@id='login']/form/fieldset/div[2]/div/span", "xpath:idRelative"],
+        ["xpath=//fieldset/div[2]/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Please enter valid email id or mobile number.')]", "xpath:innerText"]
+      ],
+      "value": "Please enter valid email id or mobile number."
+    }, {
+      "id": "87f0c7b6-7fe3-4125-b9d0-2105577c0346",
+      "comment": "",
+      "command": "click",
+      "target": "id=main_user_login",
+      "targets": [
+        ["id=main_user_login", "id"],
+        ["name=user_login", "name"],
+        ["css=#main_user_login", "css:finder"],
+        ["xpath=//input[@id='main_user_login']", "xpath:attributes"],
+        ["xpath=//div[@id='login']/form/fieldset/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a524fab1-a4f0-42db-bd1e-4317f5aceef5",
+      "comment": "",
+      "command": "type",
+      "target": "id=main_user_login",
+      "targets": [
+        ["id=main_user_login", "id"],
+        ["name=user_login", "name"],
+        ["css=#main_user_login", "css:finder"],
+        ["xpath=//input[@id='main_user_login']", "xpath:attributes"],
+        ["xpath=//div[@id='login']/form/fieldset/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "dlmd"
+    }, {
+      "id": "3ad74dcf-8359-4717-8b69-1ccbd544ab03",
+      "comment": "",
+      "command": "click",
+      "target": "id=login_via_otp",
+      "targets": [
+        ["id=login_via_otp", "id"],
+        ["linkText=Login via OTP", "linkText"],
+        ["css=#login_via_otp", "css:finder"],
+        ["xpath=//a[contains(text(),'Login via OTP')]", "xpath:link"],
+        ["xpath=//a[@id='login_via_otp']", "xpath:attributes"],
+        ["xpath=//div[@id='login']/form/fieldset/div[3]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript:void(0);')])[8]", "xpath:href"],
+        ["xpath=//div[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Login via OTP')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9909f7a7-57ba-4541-b04e-3c2010babd96",
+      "comment": "",
+      "command": "click",
+      "target": "id=main_user_login",
+      "targets": [
+        ["id=main_user_login", "id"],
+        ["name=user_login", "name"],
+        ["css=#main_user_login", "css:finder"],
+        ["xpath=//input[@id='main_user_login']", "xpath:attributes"],
+        ["xpath=//div[@id='login']/form/fieldset/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cb94b02a-dab5-44d2-9998-77407e395412",
+      "comment": "",
+      "command": "type",
+      "target": "id=main_user_login",
+      "targets": [
+        ["id=main_user_login", "id"],
+        ["name=user_login", "name"],
+        ["css=#main_user_login", "css:finder"],
+        ["xpath=//input[@id='main_user_login']", "xpath:attributes"],
+        ["xpath=//div[@id='login']/form/fieldset/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "8378"
+    }, {
+      "id": "aac0a624-11b2-4e84-a7ae-e5142a0edfa7",
+      "comment": "",
+      "command": "click",
+      "target": "id=login_via_otp",
+      "targets": [
+        ["id=login_via_otp", "id"],
+        ["linkText=Login via OTP", "linkText"],
+        ["css=#login_via_otp", "css:finder"],
+        ["xpath=//a[contains(text(),'Login via OTP')]", "xpath:link"],
+        ["xpath=//a[@id='login_via_otp']", "xpath:attributes"],
+        ["xpath=//div[@id='login']/form/fieldset/div[3]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript:void(0);')])[8]", "xpath:href"],
+        ["xpath=//div[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Login via OTP')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "143a0dd8-7b8d-4fea-b60d-067e5dfed3b3",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.s_row:nth-child(2) > .error_text:nth-child(4) > .user_login_err",
+      "targets": [
+        ["css=.s_row:nth-child(2) > .error_text:nth-child(4) > .user_login_err", "css:finder"],
+        ["xpath=//div[@id='login']/form/fieldset/div[2]/div/span", "xpath:idRelative"],
+        ["xpath=//fieldset/div[2]/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Please enter valid email id or mobile number.')]", "xpath:innerText"]
+      ],
+      "value": "Please enter valid email id or mobile number."
+    }, {
+      "id": "745bbfd2-e61e-4540-a42f-7fe5d1aea311",
+      "comment": "",
+      "command": "click",
+      "target": "id=main_user_login",
+      "targets": [
+        ["id=main_user_login", "id"],
+        ["name=user_login", "name"],
+        ["css=#main_user_login", "css:finder"],
+        ["xpath=//input[@id='main_user_login']", "xpath:attributes"],
+        ["xpath=//div[@id='login']/form/fieldset/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4d535610-7eb9-4f73-9f79-50eab2e86295",
+      "comment": "",
+      "command": "type",
+      "target": "id=main_user_login",
+      "targets": [
+        ["id=main_user_login", "id"],
+        ["name=user_login", "name"],
+        ["css=#main_user_login", "css:finder"],
+        ["xpath=//input[@id='main_user_login']", "xpath:attributes"],
+        ["xpath=//div[@id='login']/form/fieldset/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "                 drashtitest22@gmail.com"
+    }, {
+      "id": "a53bdb5b-af2e-4ebf-a659-9fd743d7f6c7",
+      "comment": "",
+      "command": "click",
+      "target": "id=login_via_otp",
+      "targets": [
+        ["id=login_via_otp", "id"],
+        ["linkText=Login via OTP", "linkText"],
+        ["css=#login_via_otp", "css:finder"],
+        ["xpath=//a[contains(text(),'Login via OTP')]", "xpath:link"],
+        ["xpath=//a[@id='login_via_otp']", "xpath:attributes"],
+        ["xpath=//div[@id='login']/form/fieldset/div[3]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript:void(0);')])[8]", "xpath:href"],
+        ["xpath=//div[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Login via OTP')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "78cac049-7dfe-41db-a0ef-519f76b630a3",
+      "comment": "",
+      "command": "click",
+      "target": "name=otp",
+      "targets": [
+        ["name=otp", "name"],
+        ["css=.loginviaotp_ver_layer .label_jump", "css:finder"],
+        ["xpath=//input[@name='otp']", "xpath:attributes"],
+        ["xpath=//div[@id='loginModelBox']/div/div[2]/div[3]/div/form/div[4]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/form/div[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "24fb6fcf-3e6b-4d43-8f6f-8d41f5cbc4b8",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Back",
+      "targets": [
+        ["linkText=Back", "linkText"],
+        ["css=.loginviaotp_ver_layer .link > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Back')])[3]", "xpath:link"],
+        ["xpath=//a[@onclick='signupLoginDsktpMngr.backLoginViaOtpVerification(this);']", "xpath:attributes"],
+        ["xpath=//div[@id='loginModelBox']/div/div[2]/div[3]/div/form/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript:void(0);')])[12]", "xpath:href"],
+        ["xpath=//div[3]/div/form/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3d751a08-2a9f-4c08-8c81-0e91aa7cfaba",
+      "comment": "",
+      "command": "click",
+      "target": "id=main_user_login",
+      "targets": [
+        ["id=main_user_login", "id"],
+        ["name=user_login", "name"],
+        ["css=#main_user_login", "css:finder"],
+        ["xpath=//input[@id='main_user_login']", "xpath:attributes"],
+        ["xpath=//div[@id='login']/form/fieldset/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8970df5c-52eb-4c19-90d1-61182850c5a0",
+      "comment": "",
+      "command": "type",
+      "target": "id=main_user_login",
+      "targets": [
+        ["id=main_user_login", "id"],
+        ["name=user_login", "name"],
+        ["css=#main_user_login", "css:finder"],
+        ["xpath=//input[@id='main_user_login']", "xpath:attributes"],
+        ["xpath=//div[@id='login']/form/fieldset/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "drashtitest22@gmail.com"
+    }, {
+      "id": "b13085e2-19ec-4565-ab78-79bd5006a378",
+      "comment": "",
+      "command": "click",
+      "target": "id=login_via_otp",
+      "targets": [
+        ["id=login_via_otp", "id"],
+        ["linkText=Login via OTP", "linkText"],
+        ["css=#login_via_otp", "css:finder"],
+        ["xpath=//a[contains(text(),'Login via OTP')]", "xpath:link"],
+        ["xpath=//a[@id='login_via_otp']", "xpath:attributes"],
+        ["xpath=//div[@id='login']/form/fieldset/div[3]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript:void(0);')])[8]", "xpath:href"],
+        ["xpath=//div[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Login via OTP')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "18b61742-f58f-4ecb-b6db-1c8ff9aa9982",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Verify",
+      "targets": [
+        ["linkText=Verify", "linkText"],
+        ["css=.loginviaotp_ver_layer .btn", "css:finder"],
+        ["xpath=//a[contains(text(),'Verify')]", "xpath:link"],
+        ["xpath=//a[@onclick='signupLoginDsktpMngr.doLoginViaOtpVerification(this)']", "xpath:attributes"],
+        ["xpath=//div[@id='loginModelBox']/div/div[2]/div[3]/div/form/div[5]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript:void(0);')])[14]", "xpath:href"],
+        ["xpath=//div[3]/div/form/div[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Verify')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b9d59e58-1bbb-49f9-8c85-a36ec5e03498",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Verify",
+      "targets": [
+        ["linkText=Verify", "linkText"],
+        ["css=.loginviaotp_ver_layer .btn", "css:finder"],
+        ["xpath=//a[contains(text(),'Verify')]", "xpath:link"],
+        ["xpath=//a[@onclick='signupLoginDsktpMngr.doLoginViaOtpVerification(this)']", "xpath:attributes"],
+        ["xpath=//div[@id='loginModelBox']/div/div[2]/div[3]/div/form/div[5]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript:void(0);')])[14]", "xpath:href"],
+        ["xpath=//div[3]/div/form/div[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Verify')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1ba7983a-1d37-4b51-9007-13a349c27680",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Verify",
+      "targets": [
+        ["linkText=Verify", "linkText"],
+        ["css=.loginviaotp_ver_layer .btn", "css:finder"],
+        ["xpath=//a[contains(text(),'Verify')]", "xpath:link"],
+        ["xpath=//a[@onclick='signupLoginDsktpMngr.doLoginViaOtpVerification(this)']", "xpath:attributes"],
+        ["xpath=//div[@id='loginModelBox']/div/div[2]/div[3]/div/form/div[5]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript:void(0);')])[14]", "xpath:href"],
+        ["xpath=//div[3]/div/form/div[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Verify')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a363875a-1bef-459c-b89d-ace860d4de51",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.loginviaotp_ver_layer .otp_err",
+      "targets": [
+        ["css=.loginviaotp_ver_layer .otp_err", "css:finder"],
+        ["xpath=//div[@id='loginModelBox']/div/div[2]/div[3]/div/form/div[4]/div/span", "xpath:idRelative"],
+        ["xpath=//div[3]/div/form/div[4]/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Please enter OTP.')]", "xpath:innerText"]
+      ],
+      "value": "Please enter OTP."
+    }, {
+      "id": "906b29c5-dcab-4545-b587-e8f8a5e1828c",
+      "comment": "",
+      "command": "click",
+      "target": "name=otp",
+      "targets": [
+        ["name=otp", "name"],
+        ["css=.loginviaotp_ver_layer .label_jump", "css:finder"],
+        ["xpath=//input[@name='otp']", "xpath:attributes"],
+        ["xpath=//div[@id='loginModelBox']/div/div[2]/div[3]/div/form/div[4]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/form/div[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a5ec7b2d-7ae8-491a-9083-e5de0d26e475",
+      "comment": "",
+      "command": "type",
+      "target": "name=otp",
+      "targets": [
+        ["name=otp", "name"],
+        ["css=.loginviaotp_ver_layer .label_jump", "css:finder"],
+        ["xpath=//input[@name='otp']", "xpath:attributes"],
+        ["xpath=//div[@id='loginModelBox']/div/div[2]/div[3]/div/form/div[4]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/form/div[4]/input", "xpath:position"]
+      ],
+      "value": "323"
+    }, {
+      "id": "040829f8-7e3d-4587-b9d7-624bbad002b3",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Verify",
+      "targets": [
+        ["linkText=Verify", "linkText"],
+        ["css=.loginviaotp_ver_layer .btn", "css:finder"],
+        ["xpath=//a[contains(text(),'Verify')]", "xpath:link"],
+        ["xpath=//a[@onclick='signupLoginDsktpMngr.doLoginViaOtpVerification(this)']", "xpath:attributes"],
+        ["xpath=//div[@id='loginModelBox']/div/div[2]/div[3]/div/form/div[5]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript:void(0);')])[14]", "xpath:href"],
+        ["xpath=//div[3]/div/form/div[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Verify')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ec8e51db-88c2-47b7-8248-f4d35d3d8bb7",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.loginviaotp_ver_layer .otp_err",
+      "targets": [
+        ["css=.loginviaotp_ver_layer .otp_err", "css:finder"],
+        ["xpath=//div[@id='loginModelBox']/div/div[2]/div[3]/div/form/div[4]/div/span", "xpath:idRelative"],
+        ["xpath=//div[3]/div/form/div[4]/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Invalid OTP.')]", "xpath:innerText"]
+      ],
+      "value": "Invalid OTP."
+    }, {
+      "id": "384f8323-976d-4825-9a03-1f4de9908c8a",
+      "comment": "",
+      "command": "click",
+      "target": "name=otp",
+      "targets": [
+        ["name=otp", "name"],
+        ["css=.loginviaotp_ver_layer .label_jump", "css:finder"],
+        ["xpath=//input[@name='otp']", "xpath:attributes"],
+        ["xpath=//div[@id='loginModelBox']/div/div[2]/div[3]/div/form/div[4]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/form/div[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "54ae4728-d42e-46f7-b936-1ca54b78c889",
+      "comment": "",
+      "command": "type",
+      "target": "name=otp",
+      "targets": [
+        ["name=otp", "name"],
+        ["css=.loginviaotp_ver_layer .label_jump", "css:finder"],
+        ["xpath=//input[@name='otp']", "xpath:attributes"],
+        ["xpath=//div[@id='loginModelBox']/div/div[2]/div[3]/div/form/div[4]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/form/div[4]/input", "xpath:position"]
+      ],
+      "value": "333333"
+    }, {
+      "id": "181b6edd-e1d1-4e53-b842-4cffc68a7ae2",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Verify",
+      "targets": [
+        ["linkText=Verify", "linkText"],
+        ["css=.loginviaotp_ver_layer .btn", "css:finder"],
+        ["xpath=//a[contains(text(),'Verify')]", "xpath:link"],
+        ["xpath=//a[@onclick='signupLoginDsktpMngr.doLoginViaOtpVerification(this)']", "xpath:attributes"],
+        ["xpath=//div[@id='loginModelBox']/div/div[2]/div[3]/div/form/div[5]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript:void(0);')])[14]", "xpath:href"],
+        ["xpath=//div[3]/div/form/div[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Verify')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "78d12365-ecfe-46b0-b5f8-8d92b7592a8a",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.loginviaotp_ver_layer .otp_err",
+      "targets": [
+        ["css=.loginviaotp_ver_layer .otp_err", "css:finder"],
+        ["xpath=//div[@id='loginModelBox']/div/div[2]/div[3]/div/form/div[4]/div/span", "xpath:idRelative"],
+        ["xpath=//div[3]/div/form/div[4]/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Invalid OTP.')]", "xpath:innerText"]
+      ],
+      "value": "Invalid OTP."
+    }, {
+      "id": "aa864a8b-cd8c-4a8f-b2de-a4a5cc9a9855",
+      "comment": "",
+      "command": "click",
+      "target": "name=otp",
+      "targets": [
+        ["name=otp", "name"],
+        ["css=.loginviaotp_ver_layer .label_jump", "css:finder"],
+        ["xpath=//input[@name='otp']", "xpath:attributes"],
+        ["xpath=//div[@id='loginModelBox']/div/div[2]/div[3]/div/form/div[4]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/form/div[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8c598e62-3d45-4389-b454-fc0feaa4f63f",
+      "comment": "",
+      "command": "type",
+      "target": "name=otp",
+      "targets": [
+        ["name=otp", "name"],
+        ["css=.loginviaotp_ver_layer .label_jump", "css:finder"],
+        ["xpath=//input[@name='otp']", "xpath:attributes"],
+        ["xpath=//div[@id='loginModelBox']/div/div[2]/div[3]/div/form/div[4]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/form/div[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2a65916e-aaf9-4bc0-b230-448bce7883a6",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Verify",
+      "targets": [
+        ["linkText=Verify", "linkText"],
+        ["css=.loginviaotp_ver_layer .btn", "css:finder"],
+        ["xpath=//a[contains(text(),'Verify')]", "xpath:link"],
+        ["xpath=//a[@onclick='signupLoginDsktpMngr.doLoginViaOtpVerification(this)']", "xpath:attributes"],
+        ["xpath=//div[@id='loginModelBox']/div/div[2]/div[3]/div/form/div[5]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript:void(0);')])[14]", "xpath:href"],
+        ["xpath=//div[3]/div/form/div[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Verify')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "31da8c6b-f1a6-4f5f-8712-473a256faa88",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.loginviaotp_ver_layer .otp_err",
+      "targets": [
+        ["css=.loginviaotp_ver_layer .otp_err", "css:finder"],
+        ["xpath=//div[@id='loginModelBox']/div/div[2]/div[3]/div/form/div[4]/div/span", "xpath:idRelative"],
+        ["xpath=//div[3]/div/form/div[4]/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Please enter OTP.')]", "xpath:innerText"]
+      ],
+      "value": "Please enter OTP."
+    }, {
+      "id": "02e8ed45-6611-42e9-8ffb-ee01b115e2e1",
+      "comment": "",
+      "command": "click",
+      "target": "id=a_close_id",
+      "targets": [
+        ["id=a_close_id", "id"],
+        ["css=#a_close_id", "css:finder"],
+        ["xpath=//a[@id='a_close_id']", "xpath:attributes"],
+        ["xpath=//div[@id='common_popupModel']/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript:void(0);')])[3]", "xpath:href"],
+        ["xpath=//div[3]/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "07c6cbb3-a470-42a5-89b1-4d3573d0fb91",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["440b4d12-29d8-4ddd-a6c3-a902ee6f1f02"]
+  }],
+  "urls": ["https://bazaar.shopclues.com/?__ar=Y"],
+  "plugins": []
+}

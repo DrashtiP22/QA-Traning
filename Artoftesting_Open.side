@@ -1,0 +1,77 @@
+{
+  "id": "c0373f0f-6150-43c4-a0ea-5da617def167",
+  "version": "2.0",
+  "name": "Artoftesting",
+  "url": "https://www.google.com",
+  "tests": [{
+    "id": "b92f8794-75c6-49a9-aa15-735c810b17c4",
+    "name": "Open_Artodtesting",
+    "commands": [{
+      "id": "d953c7ed-8fc7-4b96-854b-9c55d0759dd6",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "818db7b8-d257-47be-befa-e89a6c4fd0bd",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x840",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1a7264cf-b1cd-445b-8656-95e80729f80a",
+      "comment": "",
+      "command": "type",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "artoftest"
+    }, {
+      "id": "ee4aaba4-9976-4c98-afc2-69e82b9c2e7b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sbhl b",
+      "targets": [
+        ["css=.sbhl b", "css:finder"],
+        ["xpath=//b", "xpath:position"],
+        ["xpath=//b[contains(.,'ing')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "21c508ae-0f50-4893-a242-6639f9161c49",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tF2Cxc > .yuRUbf .LC20lb",
+      "targets": [
+        ["css=.tF2Cxc > .yuRUbf .LC20lb", "css:finder"],
+        ["xpath=//div[@id='rso']/div/div/div/div/div/div/div/a/h3", "xpath:idRelative"],
+        ["xpath=//h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'ArtOfTesting: Learn Testing Online with Free Tutorials')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6593e1da-00fe-4fca-807b-3012a20a34b5",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "35165440-8f46-4674-b80a-4fa842894748",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["b92f8794-75c6-49a9-aa15-735c810b17c4"]
+  }],
+  "urls": ["https://www.google.com/"],
+  "plugins": []
+}

@@ -1,0 +1,348 @@
+{
+  "id": "b8747591-ad0b-42eb-8acc-b5a7289cf240",
+  "version": "2.0",
+  "name": "Login",
+  "url": "https://www.saucedemo.com",
+  "tests": [{
+    "id": "1766f12d-9fc6-4ef7-9f30-8e8dbd9f8627",
+    "name": "Untitled",
+    "commands": [{
+      "id": "d93a22c3-3d87-42e7-83c5-ddf948999d90",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "07d2deac-9b80-4f5b-ab9a-9a795eb6128b",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "837x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9b0c5767-4d33-4197-ab70-a88531b3c16d",
+      "comment": "",
+      "command": "click",
+      "target": "css=*[data-test=\"login-button\"]",
+      "targets": [
+        ["css=*[data-test=\"login-button\"]", "css:data-attr"],
+        ["id=login-button", "id"],
+        ["name=login-button", "name"],
+        ["css=#login-button", "css:finder"],
+        ["xpath=//input[@id='login-button']", "xpath:attributes"],
+        ["xpath=//div[@id='login_button_container']/div/form/input", "xpath:idRelative"],
+        ["xpath=//form/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9d0bc3d7-6255-440b-94c5-985db3eb2c3e",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=*[data-test=\"error\"]",
+      "targets": [
+        ["css=*[data-test=\"error\"]", "css:data-attr"],
+        ["css=h3", "css:finder"],
+        ["xpath=//div[@id='login_button_container']/div/form/div[3]/h3", "xpath:idRelative"],
+        ["xpath=//h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'Epic sadface: Username is required')]", "xpath:innerText"]
+      ],
+      "value": "Epic sadface: Username is required"
+    }, {
+      "id": "9b5fcb23-9972-42d5-9285-a838a4e8381d",
+      "comment": "",
+      "command": "click",
+      "target": "css=*[data-test=\"username\"]",
+      "targets": [
+        ["css=*[data-test=\"username\"]", "css:data-attr"],
+        ["id=user-name", "id"],
+        ["name=user-name", "name"],
+        ["css=#user-name", "css:finder"],
+        ["xpath=//input[@id='user-name']", "xpath:attributes"],
+        ["xpath=//div[@id='login_button_container']/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e32836f6-1a1f-4777-9d62-cfd379e0d41c",
+      "comment": "",
+      "command": "type",
+      "target": "css=*[data-test=\"username\"]",
+      "targets": [
+        ["css=*[data-test=\"username\"]", "css:data-attr"],
+        ["id=user-name", "id"],
+        ["name=user-name", "name"],
+        ["css=#user-name", "css:finder"],
+        ["xpath=//input[@id='user-name']", "xpath:attributes"],
+        ["xpath=//div[@id='login_button_container']/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "problem_user"
+    }, {
+      "id": "93bb9098-3044-4e7f-9af2-0e49b08325f0",
+      "comment": "",
+      "command": "click",
+      "target": "css=*[data-test=\"login-button\"]",
+      "targets": [
+        ["css=*[data-test=\"login-button\"]", "css:data-attr"],
+        ["id=login-button", "id"],
+        ["name=login-button", "name"],
+        ["css=#login-button", "css:finder"],
+        ["xpath=//input[@id='login-button']", "xpath:attributes"],
+        ["xpath=//div[@id='login_button_container']/div/form/input", "xpath:idRelative"],
+        ["xpath=//form/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "af041bd5-770c-4001-be03-0d8f4829eda6",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.error-message-container",
+      "targets": [
+        ["css=.error-message-container", "css:finder"],
+        ["xpath=//div[@id='login_button_container']/div/form/div[3]", "xpath:idRelative"],
+        ["xpath=//div[3]", "xpath:position"]
+      ],
+      "value": "Epic sadface: Password is required"
+    }, {
+      "id": "88c4b6d8-7f28-441d-8b86-f61d6055f3cc",
+      "comment": "",
+      "command": "click",
+      "target": "css=*[data-test=\"username\"]",
+      "targets": [
+        ["css=*[data-test=\"username\"]", "css:data-attr"],
+        ["id=user-name", "id"],
+        ["name=user-name", "name"],
+        ["css=#user-name", "css:finder"],
+        ["xpath=//input[@id='user-name']", "xpath:attributes"],
+        ["xpath=//div[@id='login_button_container']/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d5ec0288-dc36-4c9d-a563-223efea93219",
+      "comment": "",
+      "command": "type",
+      "target": "css=*[data-test=\"username\"]",
+      "targets": [
+        ["css=*[data-test=\"username\"]", "css:data-attr"],
+        ["id=user-name", "id"],
+        ["name=user-name", "name"],
+        ["css=#user-name", "css:finder"],
+        ["xpath=//input[@id='user-name']", "xpath:attributes"],
+        ["xpath=//div[@id='login_button_container']/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "36e9cf8a-bbe3-46aa-a334-a3bd5a3ef5d2",
+      "comment": "",
+      "command": "type",
+      "target": "css=*[data-test=\"password\"]",
+      "targets": [
+        ["css=*[data-test=\"password\"]", "css:data-attr"],
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[@id='login_button_container']/div/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "draaaa"
+    }, {
+      "id": "6418482d-dbf7-44c0-85f5-e7a68f5b27f7",
+      "comment": "",
+      "command": "click",
+      "target": "css=*[data-test=\"login-button\"]",
+      "targets": [
+        ["css=*[data-test=\"login-button\"]", "css:data-attr"],
+        ["id=login-button", "id"],
+        ["name=login-button", "name"],
+        ["css=#login-button", "css:finder"],
+        ["xpath=//input[@id='login-button']", "xpath:attributes"],
+        ["xpath=//div[@id='login_button_container']/div/form/input", "xpath:idRelative"],
+        ["xpath=//form/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "47b68e09-cda6-4e3a-b21d-b08747b97754",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=*[data-test=\"error\"]",
+      "targets": [
+        ["css=*[data-test=\"error\"]", "css:data-attr"],
+        ["css=h3", "css:finder"],
+        ["xpath=//div[@id='login_button_container']/div/form/div[3]/h3", "xpath:idRelative"],
+        ["xpath=//h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'Epic sadface: Username is required')]", "xpath:innerText"]
+      ],
+      "value": "Epic sadface: Username is required"
+    }, {
+      "id": "5ed86d50-856e-441a-8ca2-fb83ce6aa14a",
+      "comment": "",
+      "command": "click",
+      "target": "css=*[data-test=\"password\"]",
+      "targets": [
+        ["css=*[data-test=\"password\"]", "css:data-attr"],
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[@id='login_button_container']/div/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7e85e354-e86b-4f7e-a2f0-1bb08ea342d1",
+      "comment": "",
+      "command": "type",
+      "target": "css=*[data-test=\"password\"]",
+      "targets": [
+        ["css=*[data-test=\"password\"]", "css:data-attr"],
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[@id='login_button_container']/div/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "305663ee-322e-4a28-9b37-e8876d9c2e89",
+      "comment": "",
+      "command": "click",
+      "target": "css=*[data-test=\"username\"]",
+      "targets": [
+        ["css=*[data-test=\"username\"]", "css:data-attr"],
+        ["id=user-name", "id"],
+        ["name=user-name", "name"],
+        ["css=#user-name", "css:finder"],
+        ["xpath=//input[@id='user-name']", "xpath:attributes"],
+        ["xpath=//div[@id='login_button_container']/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f1235c80-8fe4-408f-990c-17177e8c8336",
+      "comment": "",
+      "command": "type",
+      "target": "css=*[data-test=\"username\"]",
+      "targets": [
+        ["css=*[data-test=\"username\"]", "css:data-attr"],
+        ["id=user-name", "id"],
+        ["name=user-name", "name"],
+        ["css=#user-name", "css:finder"],
+        ["xpath=//input[@id='user-name']", "xpath:attributes"],
+        ["xpath=//div[@id='login_button_container']/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "standard_user"
+    }, {
+      "id": "d75f07bf-7359-4b72-8378-b85577cee9ea",
+      "comment": "",
+      "command": "click",
+      "target": "css=.login_password",
+      "targets": [
+        ["css=.login_password", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div[2]/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "14a4971b-b4ec-4159-bd34-10e632d036d7",
+      "comment": "",
+      "command": "click",
+      "target": "css=*[data-test=\"password\"]",
+      "targets": [
+        ["css=*[data-test=\"password\"]", "css:data-attr"],
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[@id='login_button_container']/div/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "474aca49-8229-457d-ae8f-7392a3cc0cc8",
+      "comment": "",
+      "command": "type",
+      "target": "css=*[data-test=\"password\"]",
+      "targets": [
+        ["css=*[data-test=\"password\"]", "css:data-attr"],
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[@id='login_button_container']/div/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "secret_sauce"
+    }, {
+      "id": "472fef82-e090-47d7-9aff-a11c27f15376",
+      "comment": "",
+      "command": "click",
+      "target": "css=*[data-test=\"login-button\"]",
+      "targets": [
+        ["css=*[data-test=\"login-button\"]", "css:data-attr"],
+        ["id=login-button", "id"],
+        ["name=login-button", "name"],
+        ["css=#login-button", "css:finder"],
+        ["xpath=//input[@id='login-button']", "xpath:attributes"],
+        ["xpath=//div[@id='login_button_container']/div/form/input", "xpath:idRelative"],
+        ["xpath=//form/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2bd88a71-f2da-4810-8d20-6063a8d24013",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.title",
+      "targets": [
+        ["css=.title", "css:finder"],
+        ["xpath=//div[@id='header_container']/div[2]/span", "xpath:idRelative"],
+        ["xpath=//span", "xpath:position"]
+      ],
+      "value": "PRODUCTS"
+    }, {
+      "id": "65e75fea-6763-4a0f-8ded-167d5eac0419",
+      "comment": "",
+      "command": "click",
+      "target": "id=react-burger-menu-btn",
+      "targets": [
+        ["id=react-burger-menu-btn", "id"],
+        ["css=#react-burger-menu-btn", "css:finder"],
+        ["xpath=//button[@id='react-burger-menu-btn']", "xpath:attributes"],
+        ["xpath=//div[@id='menu_button_container']/div/div/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Open Menu')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "decd9597-e40c-47ac-bda6-ada6f2bd81d6",
+      "comment": "",
+      "command": "click",
+      "target": "id=logout_sidebar_link",
+      "targets": [
+        ["id=logout_sidebar_link", "id"],
+        ["css=#logout_sidebar_link", "css:finder"],
+        ["xpath=//a[contains(text(),'Logout')]", "xpath:link"],
+        ["xpath=//a[@id='logout_sidebar_link']", "xpath:attributes"],
+        ["xpath=//div[@id='menu_button_container']/div/div[2]/div/nav/a[3]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[2]", "xpath:href"],
+        ["xpath=//a[3]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "31bc7904-4459-476d-bad2-cb75ec463928",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["1766f12d-9fc6-4ef7-9f30-8e8dbd9f8627"]
+  }],
+  "urls": ["https://www.saucedemo.com/"],
+  "plugins": []
+}
