@@ -1,0 +1,239 @@
+{
+  "id": "804b93ee-83ed-457a-9467-f4bc9f5ed105",
+  "version": "2.0",
+  "name": "testing",
+  "url": "https://artoftesting.com",
+  "tests": [{
+    "id": "86719ba5-1837-4ab3-abd7-03553a2092ec",
+    "name": "ARTOFTESTING",
+    "commands": [{
+      "id": "477f3e89-1ae9-44dd-88c4-63284687ee74",
+      "comment": "",
+      "command": "open",
+      "target": "/sampleSiteForSelenium",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b7eb886d-47a9-4cf3-a566-c85bbcfbb34c",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x840",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "94a72826-21e3-4103-9ab9-ff501c7cf0eb",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,68)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a3bc7187-a521-4a5c-b434-c8cf40b76694",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=This is a link",
+      "targets": [
+        ["linkText=This is a link", "linkText"],
+        ["css=p > a", "css:finder"],
+        ["xpath=//a[contains(text(),'This is a link')]", "xpath:link"],
+        ["xpath=//article[@id='post-1089']/div/div/p[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.google.com/')]", "xpath:href"],
+        ["xpath=//p[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'This is a link')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5a1cff8d-5856-4634-9e19-1e7739e5d896",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=This is a link",
+      "targets": [
+        ["linkText=This is a link", "linkText"],
+        ["css=p > a", "css:finder"],
+        ["xpath=//a[contains(text(),'This is a link')]", "xpath:link"],
+        ["xpath=//article[@id='post-1089']/div/div/p[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.google.com/')]", "xpath:href"],
+        ["xpath=//p[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'This is a link')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win7123",
+      "windowTimeout": 2000
+    }, {
+      "id": "0d10c611-b2f5-4137-bd16-83bf82b1161c",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=This is a link",
+      "targets": [
+        ["linkText=This is a link", "linkText"],
+        ["css=p > a", "css:finder"],
+        ["xpath=//a[contains(text(),'This is a link')]", "xpath:link"],
+        ["xpath=//article[@id='post-1089']/div/div/p[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.google.com/')]", "xpath:href"],
+        ["xpath=//p[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'This is a link')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "973b5b0e-34e7-4145-bb6a-e57cdcb85fce",
+      "comment": "",
+      "command": "storeWindowHandle",
+      "target": "root",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "33ce1178-6bb9-4b16-8884-d764e0d53f65",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win7123}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ed51006d-78b5-46b4-9af0-c5b138a2e442",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c50470f3-a8fe-40b8-8f51-3a47b3ca225c",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e9d577b9-ff1c-40fa-89cc-be72d90d2fbc",
+      "comment": "",
+      "command": "click",
+      "target": "id=fname",
+      "targets": [
+        ["id=fname", "id"],
+        ["name=firstName", "name"],
+        ["css=#fname", "css:finder"],
+        ["xpath=//input[@id='fname']", "xpath:attributes"],
+        ["xpath=//article[@id='post-1089']/div/div/p[5]/input", "xpath:idRelative"],
+        ["xpath=//p[5]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9a0fa0f0-6b97-4d1e-8489-26ecc6faab28",
+      "comment": "",
+      "command": "type",
+      "target": "id=fname",
+      "targets": [
+        ["id=fname", "id"],
+        ["name=firstName", "name"],
+        ["css=#fname", "css:finder"],
+        ["xpath=//input[@id='fname']", "xpath:attributes"],
+        ["xpath=//article[@id='post-1089']/div/div/p[5]/input", "xpath:idRelative"],
+        ["xpath=//p[5]/input", "xpath:position"]
+      ],
+      "value": "drsss"
+    }, {
+      "id": "105ac88b-4b3b-423e-9663-2770a650ac0b",
+      "comment": "",
+      "command": "click",
+      "target": "id=idOfButton",
+      "targets": [
+        ["id=idOfButton", "id"],
+        ["css=#idOfButton", "css:finder"],
+        ["xpath=//button[@id='idOfButton']", "xpath:attributes"],
+        ["xpath=//article[@id='post-1089']/div/div/p[6]/button", "xpath:idRelative"],
+        ["xpath=//p[6]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Submit')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bdbb1884-f7c5-4178-a70f-ea65081b148f",
+      "comment": "",
+      "command": "click",
+      "target": "id=male",
+      "targets": [
+        ["id=male", "id"],
+        ["name=gender", "name"],
+        ["css=#male", "css:finder"],
+        ["xpath=//input[@id='male']", "xpath:attributes"],
+        ["xpath=//article[@id='post-1089']/div/div/form/input", "xpath:idRelative"],
+        ["xpath=//div/div/form/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c5889623-8aad-4867-885e-013d7b0c4a61",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,564)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cafaf629-97cc-4b18-96fe-1f8d973f5991",
+      "comment": "",
+      "command": "click",
+      "target": "css=form:nth-child(13) > input:nth-child(1)",
+      "targets": [
+        ["css=form:nth-child(13) > input:nth-child(1)", "css:finder"],
+        ["xpath=//input[@value='Automation']", "xpath:attributes"],
+        ["xpath=//article[@id='post-1089']/div/div/form[2]/input", "xpath:idRelative"],
+        ["xpath=//form[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "98a25f40-a693-4355-94b7-d8fafd41d559",
+      "comment": "",
+      "command": "click",
+      "target": "css=form:nth-child(13) > input:nth-child(3)",
+      "targets": [
+        ["css=form:nth-child(13) > input:nth-child(3)", "css:finder"],
+        ["xpath=//input[@value='Performance']", "xpath:attributes"],
+        ["xpath=//article[@id='post-1089']/div/div/form[2]/input[2]", "xpath:idRelative"],
+        ["xpath=//form[2]/input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4f2b9dd3-6050-4e07-886b-17fe6d7b81cf",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,802.4000244140625)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2a837d0e-aff6-499d-abec-79863976132b",
+      "comment": "",
+      "command": "click",
+      "target": "id=testingDropdown",
+      "targets": [
+        ["id=testingDropdown", "id"],
+        ["css=#testingDropdown", "css:finder"],
+        ["xpath=//select[@id='testingDropdown']", "xpath:attributes"],
+        ["xpath=//article[@id='post-1089']/div/div/p[13]/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f1871c25-94f3-49fa-bc1b-d36ab3824a3a",
+      "comment": "",
+      "command": "select",
+      "target": "id=testingDropdown",
+      "targets": [],
+      "value": "label=Performance Testing"
+    }, {
+      "id": "4a4dad10-12d8-4ad1-acfd-09729b5ec5a0",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "1997619b-513c-4f1a-82a8-84d78ea8d226",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["86719ba5-1837-4ab3-abd7-03553a2092ec"]
+  }],
+  "urls": ["https://artoftesting.com/"],
+  "plugins": []
+}
