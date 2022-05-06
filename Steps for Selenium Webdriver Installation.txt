@@ -1,0 +1,21 @@
+Step 1 Download Jdk 
+https://www.oracle.com/java/technologies/javase-jdk16-downloads.html
+jdk-16.0.2_windows-x64_bin.exe
+
+
+Step 2 : https://www.selenium.dev/downloads/
+Selenium Clients and WebDriver Language Bindings
+Java Stable: 4.1.2 (January 30, 2022)
+
+Step 3 : Download Chrome and Firefox Driver
+Firefox Exe
+https://github.com/mozilla/geckodriver/releases
+geckodriver-v0.30.0-win64.zip
+
+
+ChromeDriver Exe
+https://chromedriver.storage.googleapis.com/index.html?path=99.0.4844.51/
+
+
+Step 4 : Download Eclipse
+https://www.eclipse.org/downloads/download.php?file=/oomph/epp/2022-03/R/eclipse-inst-jre-win64.exe
