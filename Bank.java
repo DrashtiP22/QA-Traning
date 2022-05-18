@@ -33,10 +33,10 @@ public class Bank {
 		driver.findElement(By.xpath("/html/body/div/div/div[2]/div/div[4]/div/form/div/input")).sendKeys("3000");//Enter Amount
 		Thread.sleep(2000);
 		driver.findElement(By.xpath("/html/body/div/div/div[2]/div/div[4]/div/form/button")).click();//send	deposit
-		//Thread.sleep(2000);
-		//driver.findElement(By.xpath("/html/body/div/div/div[2]/div/div[3]/button[1]")).click();//Transactions
-		//Thread.sleep(2000);
-		//driver.findElement(By.xpath("/html/body/div/div/div[2]/div/div[1]/button[1]")).click();//back
+		Thread.sleep(2000);
+		driver.findElement(By.xpath("/html/body/div/div/div[2]/div/div[3]/button[1]")).click();//Transactions
+		Thread.sleep(2000);
+		driver.findElement(By.xpath("/html/body/div/div/div[2]/div/div[1]/button[1]")).click();//back
 		Thread.sleep(2000);
 		
 	
@@ -77,6 +77,7 @@ public class Bank {
 		driver.findElement(By.xpath("/html/body/div/div/div[2]/div/div[1]/button[3]")).click();//Click on customer
 		Thread.sleep(2000);
 		driver.findElement(By.xpath("/html/body/div/div/div[2]/div/div[2]/div/div/table/tbody/tr[5]/td[5]/button")).click();
+		driver.findElement(By.xpath("/html/body/div/div/div[1]/button[1]")).click();//Home
 		
 	}
 
